@@ -1,0 +1,48 @@
+# Python-related files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+
+# Django-specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.bak
+*.swp
+*.swo
+
+# Django migration files (avoid committing large migrations)
+migrations/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Coverage reports
+.coverage
+.coverage.*
+
+# Pytest cache
+.cache/
+
+# Static files
+/static/
+*.static/
+
+# Environment variable files (store sensitive data securely)
+.env
+*.env
+
+# MySQL/MariaDB db files (if you use local MySQL)
+*.sql
+*.dump
+
+# Ignore all test files (if not using them for testing)
+tests/
