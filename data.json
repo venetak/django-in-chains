@@ -1,0 +1,546 @@
+[
+    {
+        "model": "tracklist.flower",
+        "pk": "09a2e08a-776a-34f2-30f6-57e8b76f2fe4",
+        "fields": {
+            "name": "Tulip",
+            "color": "Yellow",
+            "symbolism": "Cheerfulness and happiness"
+        }
+    },
+    {
+        "model": "tracklist.flower",
+        "pk": "39013e2e-83b9-4c63-aa17-396bbb62d863",
+        "fields": {
+            "name": "Wisteria",
+            "color": "Purple",
+            "symbolism": "Persistence."
+        }
+    },
+    {
+        "model": "tracklist.flower",
+        "pk": "3b9c687b-4d0c-6c80-802b-98f6f82cfc7f",
+        "fields": {
+            "name": "Lily",
+            "color": "White",
+            "symbolism": "Purity and renewal"
+        }
+    },
+    {
+        "model": "tracklist.flower",
+        "pk": "74e416eb-f8c9-3874-2e9c-b5f4c0f34f7b",
+        "fields": {
+            "name": "Sunflower",
+            "color": "Yellow",
+            "symbolism": "Adoration and loyalty"
+        }
+    },
+    {
+        "model": "tracklist.flower",
+        "pk": "7f1bb65e-5981-e48d-6725-c02f84e22a43",
+        "fields": {
+            "name": "Orchid",
+            "color": "Purple",
+            "symbolism": "Beauty and strength"
+        }
+    },
+    {
+        "model": "tracklist.flower",
+        "pk": "8d4b3c57-b67f-36bd-e6b9-e1e50fdf5508",
+        "fields": {
+            "name": "Daffodil",
+            "color": "Yellow",
+            "symbolism": "New beginnings and rebirth"
+        }
+    },
+    {
+        "model": "tracklist.flower",
+        "pk": "e7d27f38-a62b-6ef9-9b1a-87b3b56b9a2d",
+        "fields": {
+            "name": "Rose",
+            "color": "Red",
+            "symbolism": "Love and passion"
+        }
+    },
+    {
+        "model": "tracklist.track",
+        "pk": "0f6f438e-2f93-41bd-bed7-b1a77d6d98f5",
+        "fields": {
+            "flower": "e7d27f38-a62b-6ef9-9b1a-87b3b56b9a2d",
+            "name": "So What"
+        }
+    },
+    {
+        "model": "tracklist.track",
+        "pk": "1b4a6d74-cb4a-43d4-b451-5a3e82341a52",
+        "fields": {
+            "flower": "3b9c687b-4d0c-6c80-802b-98f6f82cfc7f",
+            "name": "Take Five"
+        }
+    },
+    {
+        "model": "tracklist.track",
+        "pk": "4315c15e-93e2-4e8f-96e6-1e90b89d54c2",
+        "fields": {
+            "flower": "7f1bb65e-5981-e48d-6725-c02f84e22a43",
+            "name": "Blue in Green"
+        }
+    },
+    {
+        "model": "tracklist.track",
+        "pk": "453bfe77-c057-44da-803a-0a212d01e67b",
+        "fields": {
+            "flower": "74e416eb-f8c9-3874-2e9c-b5f4c0f34f7b",
+            "name": "All Blues"
+        }
+    },
+    {
+        "model": "tracklist.track",
+        "pk": "63161d86-d002-4cdd-b9fd-8757be770d89",
+        "fields": {
+            "flower": "39013e2e-83b9-4c63-aa17-396bbb62d863",
+            "name": "The Shadow of Your Smile"
+        }
+    },
+    {
+        "model": "tracklist.track",
+        "pk": "afbece52-8dad-4908-9d29-a23cc48eff30",
+        "fields": {
+            "flower": "8d4b3c57-b67f-36bd-e6b9-e1e50fdf5508",
+            "name": "On Green Dophin Street"
+        }
+    },
+    {
+        "model": "tracklist.track",
+        "pk": "bb81fae9-f9ba-4a44-b58f-4697734b4330",
+        "fields": {
+            "flower": "8d4b3c57-b67f-36bd-e6b9-e1e50fdf5508",
+            "name": "Autumn Leaves"
+        }
+    },
+    {
+        "model": "tracklist.track",
+        "pk": "ef902d46-62fe-4e6f-bc1a-b858b4795c76",
+        "fields": {
+            "flower": "09a2e08a-776a-34f2-30f6-57e8b76f2fe4",
+            "name": "Round Midnight"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2025-04-06T19:20:41.812Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "afbece52-8dad-4908-9d29-a23cc48eff30",
+            "object_repr": "Track object (afbece52-8dad-4908-9d29-a23cc48eff30)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2025-04-06T19:22:30.713Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "39013e2e-83b9-4c63-aa17-396bbb62d863",
+            "object_repr": "Flower object (39013e2e-83b9-4c63-aa17-396bbb62d863)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2025-04-06T19:23:03.626Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "63161d86-d002-4cdd-b9fd-8757be770d89",
+            "object_repr": "Track object (63161d86-d002-4cdd-b9fd-8757be770d89)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add track",
+            "content_type": 7,
+            "codename": "add_track"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change track",
+            "content_type": 7,
+            "codename": "change_track"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete track",
+            "content_type": 7,
+            "codename": "delete_track"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view track",
+            "content_type": 7,
+            "codename": "view_track"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add flower",
+            "content_type": 8,
+            "codename": "add_flower"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change flower",
+            "content_type": 8,
+            "codename": "change_flower"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete flower",
+            "content_type": 8,
+            "codename": "delete_flower"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view flower",
+            "content_type": 8,
+            "codename": "view_flower"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$1000000$9ynnQDvJDf4wUP5Fmsl5IS$rWeyZ8Ybrv5jAxzETSyLd0t6D+gIpl5n5LN6X6AMyzM=",
+            "last_login": "2025-04-06T19:17:45.916Z",
+            "is_superuser": true,
+            "username": "vechi",
+            "first_name": "",
+            "last_name": "",
+            "email": "veneta.kochovska93@gmial.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2025-04-06T19:16:32.244Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "tracklist",
+            "model": "track"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "tracklist",
+            "model": "flower"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "jlrifj082l1uca0ogafxxip2wo1bx3kh",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGlmJP7FNSZ8zWLtrLw4gR4qTCnF3EikFtG9m3ltE2NYSt5aXOCVxFb24_G4I9Mz1AOkB9T5Lmuu6TCgPRZ60yXFO-XU73b-DAq3sNSsd2OiUs1VeGe14SByoAx6cQsdoiYmDJd31TgfLJqD2QEC7i96Lzxf0GjhQ:1u1VV3:mO5YFF2YoCAGIhcON626oioty0vMtVqB39vi2paIq6Y",
+            "expire_date": "2025-04-20T19:17:45.920Z"
+        }
+    }
+]
